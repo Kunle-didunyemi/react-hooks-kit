@@ -103,6 +103,7 @@ function Example() {
 npm install
 npm run test
 npm run build
+npm run docs:dev
 ```
 
 Build output:
@@ -110,6 +111,14 @@ Build output:
 - `dist/index.js` (ESM)
 - `dist/index.cjs` (CJS)
 - `dist/index.d.ts` (Type declarations)
+
+## Documentation site
+
+- Local dev: `npm run docs:dev`
+- Production build: `npm run docs:build`
+- Preview production build: `npm run docs:preview`
+
+Docs source lives in `docs/` and is configured in `docs/.vitepress/config.ts`.
 
 ## Publishing
 
