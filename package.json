@@ -1,16 +1,16 @@
 {
-  "name": "@your-scope/react-hooks-kit",
+  "name": "kay-react-hooks-kit",
   "version": "0.1.0",
   "description": "A scalable collection of reusable React hooks with TypeScript support.",
   "license": "MIT",
-  "author": "Your Name",
-  "homepage": "https://github.com/your-org/react-hooks-kit#readme",
+  "author": "Kunle Didunyemi",
+  "homepage": "https://github.com/Kunle-didunyemi/react-hooks-kit#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/react-hooks-kit.git"
+    "url": "git+https://github.com/Kunle-didunyemi/react-hooks-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/react-hooks-kit/issues"
+    "url": "https://github.com/Kunle-didunyemi/react-hooks-kit/issues"
   },
   "keywords": [
     "react",

@@ -12,7 +12,7 @@ Reusable React hooks library with TypeScript, dual ESM/CJS output, and Vitest te
 ## Install
 
 ```bash
-npm install @your-scope/react-hooks-kit
+npm install kay-react-hooks-kit
 ```
 
 Peer dependencies:
@@ -23,7 +23,7 @@ Peer dependencies:
 ## Usage
 
 ```tsx
-import { useCounter, useDebounce, useLocalStorage, useFetch } from "@your-scope/react-hooks-kit";
+import { useCounter, useDebounce, useLocalStorage, useFetch } from "kay-react-hooks-kit";
 
 function Example() {
   const { count, increment } = useCounter(0);
@@ -128,7 +128,5 @@ These run `npm version` + `npm publish`.
 
 ## What to customize
 
-- Replace package metadata in `package.json` (`name`, `repository`, `author`, `homepage`).
 - Tune individual hook behavior as needed (for example retries/backoff strategy in `useContinuousRetry`, response parsing in `useFetch`).
 - Add additional API docs/examples per hook if you want documentation site style output.
-# use-hooks
